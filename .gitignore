@@ -1,0 +1,23 @@
+# Local input data, cached meshes, and generated figures
+/data/
+/meshgrid/
+/plots/
+*.nc
+*.npy
+*.npz
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
+~$*
+
+# Presentation video is distributed with the release
+/docs/presentation/*.mp4
